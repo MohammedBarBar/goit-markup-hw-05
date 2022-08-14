@@ -513,7 +513,8 @@ footer address {
   height: 140px;
   letter-spacing: 0.03em;
 }
-.content-box:hover .content-hover {
+.content-item-link:hover .content-hover,
+.content-item-link:focus .content-hover {
   transform: translateY(0);
 }
 .content-item-link:hover,
@@ -595,7 +596,8 @@ footer address {
 .close-tab {
   fill: currentColor;
 }
-.close-tab-icon:hover {
+.close-tab-icon:hover,
+.close-tab-icon:focus {
   color: var(--accent-color);
   cursor: pointer;
   border: 1px solid var(--accent-color);
